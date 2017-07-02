@@ -1,0 +1,117 @@
+#test{
+    font-size:100px;
+}
+
+header{
+    margin:0px;
+    height:80px;
+    background-color:white; 
+    
+}
+
+header div{
+    position:fixed;
+    font-size:35pt;
+    color:yellow;
+    font-weight:bold;
+}
+
+
+
+.navbar ul li{
+    font-size: 15pt;
+      background: white;
+      margin: 0; padding: 26.6px;
+      list-style: none;
+      display: inline;
+      float: right;
+      color:white;
+}
+
+.navbar a{
+    color:black;
+    text-decoration:none
+}
+
+.section1 {
+    background-image: url(https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_1280.jpg);
+    height: 600px;
+}
+
+
+
+.container{ 
+    width:960px;
+    color:white;
+}
+.container .p{ 
+    width:960px;
+    color:white;
+}
+
+.section1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.weare {
+    font-size: 60px;
+    font-family: courier;
+}
+
+.weare2 {
+    font-size: 20px;
+    font-family: courier;
+   
+}
+
+.button {
+	display : block;
+	padding : 1em;
+
+	border-radius : 10em;
+	color : #fff;
+	font-size : 18px;
+	font-family : 'Lato', sans-serif;
+	font-weight : 700;
+	text-align : center;
+	text-decoration : none;
+	background-color : orange;
+	
+}
+
+.section2{
+    margin:0px;
+    background-color:white;
+    text-align:center;
+}
+
+.section2 div{
+   /*border: 1px solid gold; float: left; width: 30%; padding:10px;*/
+   display:inline-block;
+   height:300px; width: 200px; padding:10px; margin:10px;
+   border: 1px solid gold;
+   
+   
+}
+
+
+
+
+
+
+
+footer{
+    background-color:black; 
+    height:100px;
+}
+
+#footer_text{
+    padding-top:40px;
+    color:white;
+    text-align: center;
+}
+
+body {margin: 0px;
+      padding: 0px;
+}
