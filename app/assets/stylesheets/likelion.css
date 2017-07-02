@@ -12,8 +12,9 @@ header{
 header div{
     position:fixed;
     font-size:35pt;
-    color:yellow;
+    color:#ffa500;
     font-weight:bold;
+    font-family:courier;
 }
 
 
@@ -30,11 +31,12 @@ header div{
 
 .navbar a{
     color:black;
-    text-decoration:none
+    text-decoration:none;
+    font-family:courier;
 }
 
 .section1 {
-    background-image: url(https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_1280.jpg);
+    background-image: url(http://i.imgur.com/cvmk39S.jpg);
     height: 600px;
 }
 
@@ -72,7 +74,7 @@ header div{
 	border-radius : 10em;
 	color : #fff;
 	font-size : 18px;
-	font-family : 'Lato', sans-serif;
+	font-family : courier;
 	font-weight : 700;
 	text-align : center;
 	text-decoration : none;
