@@ -2,19 +2,30 @@
     font-size:100px;
 }
 
+
+
 header{
+    position:fixed;
+    left:0px;
+    right: 0px;
+    top: 0px;
+    position: fixed;
     margin:0px;
     height:80px;
-    background-color:white; 
+    background-color:white;
+    position: relative;
     
 }
 
-header div{
+
+header div div{
     position:fixed;
+    float: left;
     font-size:35pt;
     color:#ffa500;
     font-weight:bold;
     font-family:courier;
+    line-height: 80px;
 }
 
 
@@ -37,14 +48,17 @@ header div{
 
 .section1 {
     background-image: url(http://i.imgur.com/cvmk39S.jpg);
+    background-size: cover;
     height: 600px;
+    color: white;
 }
 
 
 
 .container{ 
     width:960px;
-    color:white;
+    margin : 0 auto;
+    
 }
 .container .p{ 
     width:960px;
@@ -55,6 +69,9 @@ header div{
     text-align: center;
     display: flex;
     justify-content: center;
+    align-items: center;
+    
+   
 }
 .weare {
     font-size: 60px;
@@ -64,6 +81,7 @@ header div{
 .weare2 {
     font-size: 20px;
     font-family: courier;
+    width: 500px;
    
 }
 
@@ -91,7 +109,7 @@ header div{
 .section2 div{
    /*border: 1px solid gold; float: left; width: 30%; padding:10px;*/
    display:inline-block;
-   height:300px; width: 200px; padding:10px; margin:10px;
+   height:400px; width: 300px; padding-top:20px; padding-right:10px; padding-left:10px; padding-bottom:10px; margin:10px;
    border: 1px solid gold;
    
    
@@ -114,6 +132,6 @@ footer{
     text-align: center;
 }
 
-body {margin: 0px;
+* {margin: 0px;
       padding: 0px;
 }

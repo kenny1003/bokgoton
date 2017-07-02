@@ -1,10 +1,11 @@
 <%= stylesheet_link_tag 'likelion'%>
 
 
-<header>
+<header >
+    <div class="container">
     <!--<div class="header">-->
         <!--<h1><span class:joname>Number.5</span> <span class="header_home">HOME</span> <span class="header_member">MEMBER</span></h1>-->
-        <div>
+        <div >
             Likelion page
         </div>
         <nav class="navbar">
@@ -14,7 +15,8 @@
                 <li><a href = "#">When</a></li>
             </ul>
         </nav>
-    <!--</div>-->
+    </div>
+  
 </header>
 
 
@@ -22,21 +24,16 @@
 <section>
     <div class="section1">
         <div class="container">
-            <div class="weare">
+            <div class="weare" style="padding-bottom: 20px">
               <h2>HACK YOUR LIFE <br>WITH Team.5</h2>
             </div>
-            <div class="weare2">
-              <p>    SHIT WIFI SHIT WIFI SHIT WIFI SHIT WIFI SHIT WIFI 
-                 <br>SHIT WIFI SHIT WIFI SHIT WIFI SHIT WIFI SHIT WIFI
-                 <br>SHIT WIFI SHIT WIFI SHIT WIFI SHIT WIFI SHIT WIFI
-                 <br>SHIT WIFI SHIT WIFI SHIT WIFI SHIT WIFI SHIT WIFI
-              </p>
-            </div>
-            
-            
             <center>
-                <button class=button>
-                    <a onclick="myFunction_finish()">Button </a>
+            <div class="weare2" style="padding-bottom: 30px">
+              <p>SHIT WIFI SHIT WIFI SHIT WIFI SHIT WIFI SHIT WIFI SHIT WIFI SHIT WIFI SHIT WIFI SHIT WIFI SHIT WIFI </p>
+              
+            </div>
+            <button class="button" style="padding-top: 20px">
+                    <a onclick="myFunction_finish()">Reload </a>
                 </button>
             </center>
         </div>
@@ -48,17 +45,26 @@
 <section class = "section2">
     <div>
         <article>
-          <h1>알티클1</h1>
+          <img src="http://i.imgur.com/x75FLLk.jpg" width="300" height="250">
+          <h2>김광훈</h2>
+          <br>
+          <p>엄청난 파워로 디버그해버린다. 뿜뿜!</p>
         </article>
     </div>
     <div>
         <article>
-          <h1>알티클2</h1>
+          <img src="http://i.imgur.com/i4auY71.png" width="300" height="250">
+        <h2>나상경</h2>
+        <br>
+        <p>엄청난 피지컬로 꾸며버린다. 얍얍!</p>
         </article>
     </div>
     <div>
         <article>
-          <h1>알티클3</h1>
+          <img src="http://i.imgur.com/sAjBMYB.jpg" width="300" height="250">
+        <h2>김경호</h2>
+        <br>
+        <p>엄청난 탑승으로 버스타버린다. 부릉!</p>
         </article>
     </div>
     
@@ -80,7 +86,6 @@
 
 <a onclick="myFunction_finish()" href="#" style="font-size:23px; color:white;">
     <i class="fa fa-hourglass-half fa-5x" aria-hidden="true" style="margin-bottom:5px;"></i>
-    <p>test</p>
 </a>
 
 <script>
